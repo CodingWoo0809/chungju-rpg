@@ -1,0 +1,7 @@
+# 샌드백 장수 원화 프롬프트
+
+Built-in ImageGen, `stylized-concept`, 2026-09-24. Output: `sandbag-painted-parts-v1.png`.
+
+> Production 2D painted cutout parts atlas for a small isometric storybook fantasy RPG monster, on an uncluttered white background, no scenery, no text, no labels. One tidy 1536×1024 landscape sprite-parts sheet with three clearly separated horizontal rows: front, back, right profile. In each row put seven separated pieces in consistent columns: a stout cylindrical stitched brown-leather heavy punching-bag torso with a living boxer face seamlessly integrated and strong shoulders; a cloth headband or head-wrap with two trailing strips, no modern helmet; left and right articulated bent leather arms ending in oversized deep rust-red leather boxing gloves; left and right braced lower legs wearing dark leather boxing shoes; and a small stitched waistband or rope tassel. The identity is a grounded fantasy boxer animated from separate body parts, not a punching bag with cartoon limbs. Broad shoulders, low center of mass, worn seams, boxing wraps, expressive guard. Front, rear and side silhouettes must be genuinely different. Richly hand-painted premium whimsical MMORPG game art with warm ink outlines, subtle textured brushwork and dimensional shading. Neither chibi mascot nor horror. Isolated parts with white gaps, no cast shadows, watermarks, or lettering.
+
+The generated PNG has genuine transparent alpha despite the requested white background. The game loads the original atlas without altering its pixels.

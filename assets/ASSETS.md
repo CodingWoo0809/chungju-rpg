@@ -1,0 +1,7 @@
+# Asset provenance
+- campus-reference.png: user-provided annotated satellite map, geometry reference.
+- zelkova-tree.png: built-in image generation, 2026-09-09; isolated mature Korean zelkova, transparent background, high-angle realistic painterly foliage.
+- lawn-texture.png: built-in image generation, 2026-09-09; seamless topdown natural sage/olive grass.
+- external/spritegen/honggildong_v1/honggildong_{idle,walk,attack}_v1.png: user-supplied SpriteGen output, added 2026-09-19; player character 홍길동, front-facing only, 8-frame horizontal strips (384×384/frame). Used for the player's Idle/Walk/Attack visuals (src/player-sprite.js).
+- external/spritegen/honggildong_v1/honggildong_idle_{back,right}_v1.png: user-supplied SpriteGen output, added 2026-09-20; same character, back-facing and right-profile idle, same 8-frame/384×384 format. left-facing is the right sheet mirrored at draw time (no separate file). walk/attack still only exist front-facing — back/right/left walk and attack render as that direction's idle sprite with a small procedural bob/punch motion (src/player-sprite.js: pickPlayerFrame), never the old procedural placeholder, once the sprite sheets are loaded.
+- Buildings/actors/creatures/paving: original procedural Canvas rendering. NPCs and monsters always use this; the player only falls back to it during the brief moment its sprites are still loading, or during the victory-party dance (no sprite for that pose yet). No Lineage game assets copied.

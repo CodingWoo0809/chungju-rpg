@@ -1,0 +1,2 @@
+export const ROOF_COLORS={cafeteria:'#9a9c82',dreamhall:'#d98b3c',jangseong:'#4d7854',career:'#819070',civil:'#4f6f52',electric:'#648552',machine:'#426d52',architecture:'#37875d',main:'#92aaa1',gym:'#318ca4'};
+export function shade(hex,amount){const n=parseInt(hex.slice(1),16);return '#'+[n>>16,(n>>8)&255,n&255].map(v=>Math.round(v+(amount>0?255-v:v)*amount).toString(16).padStart(2,'0')).join('');}

@@ -1,0 +1,7 @@
+# 식판 요정 원화 프롬프트
+
+Built-in ImageGen, `stylized-concept`, 2026-09-24. Output: `tray-painted-parts-v1.png`.
+
+> Production 2D painted cutout parts atlas for a small isometric storybook fantasy RPG monster, on a perfectly plain pure white background, no shadows outside parts, no text, no labels, no scenery. One tidy 1536×1024 landscape sprite-parts sheet with three clearly separated horizontal rows: FRONT, BACK, RIGHT PROFILE. In each row place six separated pieces at consistent columns: a slender mysterious spirit torso/head in ivory cloth and pale sea-glass; a single intact rectangular silver cafeteria compartment tray used as a sweeping cloak with unmistakable raised rim and four visible food compartments; left and right articulated chopstick arms with elegant joints and sleeves; left and right silver spoon legs/feet with bowls clearly readable at their tips. Design as one integrated creature, not an object with a face. The tray is a cloak around the back and shoulders, not generic metal wings, and can unfold into one recognizable cafeteria tray. Spoon feet are actual spoons, not boots. Painterly high-resolution hand-painted game concept art with warm ink outlines, textured metal and enamel, and soft fantasy lighting. Sophisticated and magical, neither chibi mascot nor horror. Keep each part inside its cell with white gaps, no decorative background, lettering, guide lines, or watermark.
+
+The generated PNG has genuine transparent alpha despite the requested white background. The game loads the original atlas without altering its pixels.
